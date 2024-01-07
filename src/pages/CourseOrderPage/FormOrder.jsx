@@ -114,7 +114,7 @@ const  profileTypeNew =  isAlreadyForm?.type
               label="Email"
               required
               placeholder="Email"
-              // disabled
+              disabled
               {...register("email")}
             />
           </div>
