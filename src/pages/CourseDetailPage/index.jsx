@@ -7,7 +7,7 @@ import FaqSection from "./FaqSection";
 import CoursesSection from "./CoursesSection";
 import FeaturedSection from "./FeaturedSection";
 import HeaderTop from "./HeaderTop";
-import { courseService } from "../../services/CoursesSevice";
+import { courseService } from "../../services/coursesSevice";
 import useMutation from "../../hooks/useMutation";
 import useQuery from "../../hooks/useQuery";
 import { questionsService } from "../../services/questionsService";
