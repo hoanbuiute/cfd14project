@@ -1,7 +1,7 @@
 import React from "react";
 import MyInfo from "./MyInfo";
 import MyCourse from "./MyCourse";
-import MyPayment from "./Mypayment";
+import MyPayment from "./MyPayment";
 import { Link, NavLink, Outlet } from "react-router-dom";
 import PATHS from "../../constants/paths";
 import { useAuthContext } from "../../components/Context/AuthContext";
