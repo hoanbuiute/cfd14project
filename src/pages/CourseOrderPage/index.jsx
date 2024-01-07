@@ -5,7 +5,7 @@ import PaymentOrder from "./PaymentOrder";
 import Button from "../../components/Button";
 import { useNavigate, useParams } from "react-router-dom";
 import useMutation from "../../hooks/useMutation";
-import { courseService } from "../../services/CoursesSevice";
+import { courseService } from "../../services/coursesSevice";
 import { formatCurrency, formatDate } from "../../utils/format";
 import { ROLE } from "../../constants/role";
 import { useAuthContext } from "../../components/Context/AuthContext";
