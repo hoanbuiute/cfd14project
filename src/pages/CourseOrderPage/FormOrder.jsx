@@ -53,16 +53,23 @@ console.log("profile",profile)
   const isAlreadyForm = paymentInfo.find( (item) => item?.course?.slug === courseSlug
     )
     // const profileType = isAlreadyForm.type
-console.log("isAlreadyForm",isAlreadyForm)
+const  profileTypeNew =  isAlreadyForm?.type
+  const  profilePhoneNew =  isAlreadyForm?.phone
+  
   useEffect(() => {
-
+  setForm({
+        name: profileName,
+        email: profileEmail,
+        phone: profilePhone,
+        type:"",
+      });
 
     if(disabled){
       setForm({
         name: profileName,
         email: profileEmail,
-        phone: profilePhone,
-        type:isAlreadyForm.type,
+        phone: profilePhoneNew,
+        type: profileTypeNew,
       });
     }
 
