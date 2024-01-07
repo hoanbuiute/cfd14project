@@ -84,8 +84,6 @@ const AuthContextProvider = ({ children }) => {
         //handleLogin
         handleLogin({ email, password });
         ///Thông báo
-      } else {
-        message.error("đăng kí thất bại");
       }
     } catch (error) {
       console.log("error", error);
