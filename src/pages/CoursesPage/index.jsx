@@ -1,6 +1,6 @@
 import React from "react";
 import useQuery from "../../hooks/useQuery";
-import { courseService } from "../../services/CoursesSevice";
+import { courseService } from "../../services/coursesSevice";
 import { Empty, Skeleton } from "antd";
 import CourseItem from "../../components/CourseItem";
 import useDebounce from "../../hooks/useDebounce";
