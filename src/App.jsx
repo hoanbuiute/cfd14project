@@ -17,7 +17,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import StudentProfilePage from "./pages/StudentProfilePage";
 import MyInfo from "./pages/StudentProfilePage/MyInfo";
 import MyCourse from "./pages/StudentProfilePage/MyCourse";
-import MyPayment from "./pages/StudentProfilePage/Mypayment";
+import MyPayment from "./pages/StudentProfilePage/MyPayment";
 import PATHS from "./constants/paths";
 import PrivateRoute from "./components/PrivateRoute";
 
