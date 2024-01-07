@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import useQuery from "../../hooks/useQuery";
-import { courseService } from "../../services/CoursesSevice";
+import { courseService } from "../../services/coursesSevice";
 import { teamsService } from "../../services/teamsService";
 import { questionsService } from "../../services/questionsService";
 import { galleryService } from "../../services/galleryService";
